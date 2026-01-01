@@ -30,10 +30,11 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <span className="font-display text-2xl md:text-3xl tracking-wide text-foreground">
+          <a href="#" className="flex items-center gap-2 cursor-pointer">
+            {/* <span className="font-display text-2xl md:text-3xl tracking-wide text-foreground">
               REELIFY<span className="text-primary">MEDIA</span>
-            </span>
+            </span> */}
+            <img src="REELIFY LOGO WHITE - PNG.png" alt="Reelify Media Logo"  className="h-10 md:h-18 w-auto object-contain" />
           </a>
 
           {/* Desktop Navigation */}
@@ -47,7 +48,7 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSetsgIPP8hevrexzqLJi2Hh5SgM-xX_CS6T565-cH2FzNV93g/viewform" target='_blank'>
+            <a href="https://forms.gle/NM2mwcZw4cRqcEvG7" target='_blank'>
               <Button variant="hero" size="default">
                 Let's Talk
               </Button>

@@ -5,10 +5,12 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      { name: 'Reel Production', href: '#' },
-      { name: 'Creator Management', href: '#' },
-      { name: 'PR & Communications', href: '#' },
-      { name: 'Growth Strategy', href: '#' },
+      { name: 'PR Page Management', href: '#' },
+      { name: 'Campaign Marketing', href: '#' },
+      { name: 'Video Editing', href: '#' },
+      { name: 'Social Media Growth', href: '#' },
+      { name: 'Graphic Design', href: '#' },
+      { name: 'Growth Consultancy', href: '#' }
     ],
     company: [
       { name: 'About Us', href: '#about' },
@@ -17,43 +19,35 @@ const Footer = () => {
       { name: 'Contact', href: '#' },
     ],
     social: [
-      { name: 'Instagram', icon: Instagram, href: '#' },
-      { name: 'YouTube', icon: Youtube, href: '#' },
-      { name: 'LinkedIn', icon: Linkedin, href: '#' },
-      { name: 'Twitter', icon: Twitter, href: '#' },
+      { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/reelify.media/' },
+      // { name: 'YouTube', icon: Youtube, href: '#' },
+      { name: 'LinkedIn', icon: Linkedin, href: 'https://www.linkedin.com/company/reelify-media/posts/' },
+      // { name: 'Twitter', icon: Twitter, href: '#' },
     ],
   };
 
   return (
     <footer id="about" className="bg-card border-t border-border">
-      <div className="container mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-4 gap-12 mb-12">
+      <div className="container mx-auto px-6 py-8">
+        <div className="grid md:grid-cols-2 gap-12 mb-8">
           {/* Brand */}
-          <div className="md:col-span-1">
-            <a href="#" className="inline-block mb-6">
-              <span className="font-display text-2xl text-foreground">
+          <div className="md:col-span-1 ml-48">
+            <a href="#" className="inline-block mb-6 ml-5">
+              {/* <span className="font-display text-2xl text-foreground">
                 REELIFY<span className="text-primary">MEDIA</span>
-              </span>
+              </span> */}
+              
+                          <img src="REELIFY LOGO WHITE - PNG copy.png" alt="Reelify Media Logo"  className="h-10 md:h-18 w-auto object-contain flex px-12 justify-center" />
+
             </a>
             <p className="font-body text-muted-foreground text-sm leading-relaxed mb-6">
-              India's leading reel agency. We create viral content that converts for creators and brands.
+              India's leading social media agency. We create <br /> viral  content that converts for creators <br /> and brands.
             </p>
-            <div className="flex items-center gap-4">
-              {footerLinks.social.map((social) => (
-                <a
-                  key={social.name}
-                  href={social.href}
-                  className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-secondary/80 transition-colors"
-                  aria-label={social.name}
-                >
-                  <social.icon className="w-5 h-5" />
-                </a>
-              ))}
-            </div>
+          
           </div>
 
           {/* Services */}
-          <div>
+          {/* <div>
             <h4 className="font-display text-lg mb-6">Services</h4>
             <ul className="space-y-3">
               {footerLinks.services.map((link) => (
@@ -67,10 +61,10 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Company */}
-          <div>
+          {/* <div>
             <h4 className="font-display text-lg mb-6">Company</h4>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
@@ -84,33 +78,55 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
+
+            {/* <div className=" border-t border-border flex  md:flex-row items-center justify-center ">
+          <p className="font-body text-lg text-muted-foreground select-none text-center align-middle  mt-4 mb-1">
+            © {currentYear} Reelifymedia. All rights reserved.
+          </p>
+          </div> */}
 
           {/* Contact */}
-          <div>
-            <h4 className="font-display text-lg mb-6">Get in Touch</h4>
+          <div className="ml-32">
+            <h4 className="font-display text-xl mb-6 "> <b>Get in Touch</b></h4>
             <div className="space-y-3 font-body text-sm text-muted-foreground">
-              <p>hello@reelifymedia.com</p>
-              <p>+91 98765 43210</p>
-              <p>Mumbai, India</p>
+              <p>shubham@reelifymedia.com</p>
+              <p>+91 94509 40146</p>
+              <p>Noida, India</p>
+                <div className="flex items-center gap-4">
+              {footerLinks.social.map((social) => (
+                <a
+                target='_blank'
+                  key={social.name}
+                  href={social.href}
+                  className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-secondary/80 transition-colors"
+                  aria-label={social.name}
+                >
+                  <social.icon className="w-5 h-5" />
+                </a>
+              ))}
+            </div>
+              {/* <p className="font-body text-lg text-muted-foreground select-none ">
+            © {currentYear} Reelifymedia. All rights reserved.
+          </p> */}
             </div>
           </div>
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="font-body text-sm text-muted-foreground">
+         <div className=" border-t border-border flex  md:flex-row items-center justify-center ">
+          <p className="font-body text-lg text-muted-foreground select-none text-center align-middle  mt-4 mb-1">
             © {currentYear} Reelifymedia. All rights reserved.
           </p>
-          <div className="flex items-center gap-6">
+        {/*  <div className="flex items-center gap-6">
             <a href="#" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacy Policy
             </a>
             <a href="#" className="font-body text-sm text-muted-foreground hover:text-foreground transition-colors">
               Terms of Service
             </a>
-          </div>
-        </div>
+          </div>*/}
+        </div> 
       </div>
     </footer>
   );

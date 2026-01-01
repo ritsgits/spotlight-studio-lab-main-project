@@ -8,10 +8,10 @@ const CTA = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-background" />
       
       {/* Decorative elements */}
-      <div className="absolute top-10 left-10 w-32 h-32 border border-primary/20 rounded-full" />
+      {/* <div className="absolute top-10 left-10 w-32 h-32 border border-primary/20 rounded-full" />
       <div className="absolute bottom-10 right-10 w-48 h-48 border border-primary/10 rounded-full" />
       <div className="absolute top-1/2 left-1/4 w-2 h-2 bg-primary rounded-full animate-pulse" />
-      <div className="absolute top-1/3 right-1/3 w-3 h-3 bg-primary/50 rounded-full animate-pulse stagger-2" />
+      <div className="absolute top-1/3 right-1/3 w-3 h-3 bg-primary/50 rounded-full animate-pulse stagger-2" /> */}
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
@@ -38,7 +38,7 @@ const CTA = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button></a> 
             <Button variant="outline" size="xl">
-              hello@reelifymedia.com
+              shubham@reelifymedia.com
             </Button>
           </div>
         </div>

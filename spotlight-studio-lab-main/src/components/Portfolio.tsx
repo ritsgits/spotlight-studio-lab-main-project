@@ -5,61 +5,61 @@ const portfolioItems = [{
   title: 'Viral Growth Campaign',
   client: 'Raj Shamani',
   category: 'Influencer',
-  views: '25M+',
-  thumbnail: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=800&fit=crop',
+  views: '32M+',
+  thumbnail: '/rajxinspire.jpg',
   platform: 'instagram',
   color: 'from-brand-purple to-brand-magenta',
-  link: 'https://www.instagram.com/reels/DSzqVcWE1wf/'
+  link: 'https://www.instagram.com/reel/C4LA84Up1z1/?igsh=MXF6MjI0eWFheHo5YQ=='
 }, {
   id: 2,
   title: 'Education Revolution',
-  client: 'Physics Wallah',
+  client: 'Prashant Kirad',
   category: 'EdTech',
-  views: '15M+',
-  thumbnail: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=600&h=800&fit=crop',
+  views: '90M+',
+  thumbnail: '/prashant.jpg',
   platform: 'instagram',
   color: 'from-brand-red to-brand-orange',
-  link: 'https://www.instagram.com/reels/DSzqVcWE1wf/'
+  link: 'https://www.instagram.com/reel/Czx1dwNuAOY/?igsh=Znc0bzhwMDRoemps'
 }, {
   id: 3,
   title: 'Show Promotion',
   client: 'Netflix India',
   category: 'Entertainment',
-  views: '10M+',
+  views: '3.5M+',
   thumbnail: 'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=600&h=800&fit=crop',
   platform: 'instagram',
   color: 'from-brand-teal to-brand-green',
-  link: 'https://www.instagram.com/reels/DSzqVcWE1wf/'
+  link: 'https://www.instagram.com/reels/DQyBvulEh9T/'
 }, {
   id: 4,
-  title: 'Learning Campaign',
-  client: 'Unacademy',
+  title: 'Event Reel',
+  client: 'Physics Wallah',
   category: 'EdTech',
-  views: '20M+',
-  thumbnail: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=800&fit=crop',
+  views: '900K+',
+  thumbnail: '/youtube1.png',
   platform: 'youtube',
   color: 'from-brand-orange to-brand-yellow',
-  link: 'https://www.youtube.com/shorts/rEwtC4SNweo'
+  link: 'https://youtube.com/shorts/j2dHU-SGXp4?si=gfSWauRNQMio2Tr3'
 }, {
   id: 5,
-  title: 'Streaming Promo',
-  client: 'Prime Video',
-  category: 'OTT',
-  views: '8M+',
-  thumbnail: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=600&h=800&fit=crop',
+  title: 'Content Amplification',
+  client: 'Arun Pandit',
+  category: 'Astrology',
+  views: '1.1M+',
+  thumbnail: '/youtube2.png',
   platform: 'youtube',
   color: 'from-brand-blue to-brand-teal',
-  link: 'https://www.youtube.com/shorts/rEwtC4SNweo'
+  link: 'https://youtube.com/shorts/bBF0vUHQpQ4?si=HA9B6q6larC_6jic'
 }, {
   id: 6,
-  title: 'Sports Content',
-  client: 'JioHotstar',
-  category: 'Sports & Entertainment',
-  views: '12M+',
-  thumbnail: 'https://goqii.com/blog/wp-content/uploads/6-Health-Benefits-of-Playing-Sports.jpg',
+  title: 'Results-Driven Campaign',
+  client: 'Unacademy',
+  category: 'Edtech',
+  views: '224K+',
+  thumbnail: '/youtube3.png',
   platform: 'youtube',
   color: 'from-brand-pink to-brand-purple',
-  link: 'https://www.youtube.com/shorts/rEwtC4SNweo'
+  link: 'https://youtube.com/shorts/PKvugbk-6Cc?si=R3gpVVz1VoRV25Uy'
 }];
 const Portfolio = () => {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
@@ -128,7 +128,7 @@ const Portfolio = () => {
 
         {/* View all CTA */}
         <div className="text-center mt-12">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSetsgIPP8hevrexzqLJi2Hh5SgM-xX_CS6T565-cH2FzNV93g/viewform" target='_blank' className="inline-flex items-center gap-2 font-body text-primary hover:text-primary/80 transition-colors">
+          <a href="https://forms.gle/NM2mwcZw4cRqcEvG7" target='_blank' className="inline-flex items-center gap-2 font-body text-primary hover:text-primary/80 transition-colors">
             <span>Get similar results for your brand</span>
             <ExternalLink className="w-4 h-4" />
           </a>

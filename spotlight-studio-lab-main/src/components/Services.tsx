@@ -58,7 +58,7 @@ const Services = () => {
             <span className="text-gradient"></span>
           </h2>
           <p className="font-body text-lg text-muted-foreground">
-            From ideation to execution, we provide everything you need to dominate short-form content.
+            From ideation to execution, we provide everything you need to dominate on social media.
           </p>
         </div>
 

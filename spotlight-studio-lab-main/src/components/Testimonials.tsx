@@ -6,18 +6,19 @@ const testimonials = [
     author: "Raj Shamani",
     role: "Entrepreneur & Content Creator",
     avatar: "RS",
+    
   },
   {
     quote: "The team's creativity and professionalism made our collaboration seamless. They delivered beyond expectations every single time.",
-    author: "Marketing Head",
-    role: "Physics Wallah",
-    avatar: "PW",
+    author: "Ashwin Srivastava",
+    role: "Adda247 - Senior Director",
+    avatar: "AS",
   },
   {
     quote: "Working with Reelifymedia was a game-changer for our brand presence on social media. They truly understand the pulse of short-form content.",
-    author: "Brand Manager",
-    role: "Unacademy",
-    avatar: "UA",
+    author: "Arun Pandit",
+    role: "Astrology Expert & Content Creator",
+    avatar: "AP",
   },
 ];
 

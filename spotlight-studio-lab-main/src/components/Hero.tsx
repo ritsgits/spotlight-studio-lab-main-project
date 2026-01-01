@@ -18,11 +18,11 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto text-center">
           {/* Main headline - Rainbow REELIFY like their branding */}
           <h1 className="font-display text-6xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.9] tracking-tight mb-4 animate-slide-up">
-            <span className="text-gradient">REELIFY</span>
+            <span className="text-gradient"><b>REELIFY MEDIA</b></span>
           </h1>
-          <h2 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.9] tracking-tight mb-8 animate-slide-up stagger-1">
-            MEDIA
-          </h2>
+          {/* <h2 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.9] tracking-tight mb-8 animate-slide-up stagger-1">
+          <b>MEDIA</b>  
+          </h2> */}
 
           {/* Tagline */}
           <p className="font-display text-xl md:text-2xl lg:text-3xl text-foreground mb-4 animate-slide-up stagger-2">
@@ -40,7 +40,7 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up stagger-4">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSetsgIPP8hevrexzqLJi2Hh5SgM-xX_CS6T565-cH2FzNV93g/viewform" target="_blank" rel="noopener noreferrer">
+            <a href="https://forms.gle/NM2mwcZw4cRqcEvG7" target="_blank" rel="noopener noreferrer">
               <Button variant="hero" size="xl" className="group" >
                 Start Your Project
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

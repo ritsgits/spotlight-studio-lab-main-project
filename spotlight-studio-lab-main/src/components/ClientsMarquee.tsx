@@ -1,8 +1,8 @@
 import physicsWallahLogo from '@/assets/clients/physics-wallah.png';
 import unacademyLogo from '@/assets/clients/unacademy.png';
 import netflixLogo from '@/assets/clients/netflix.png';
-import primeVideoLogo from '@/assets/clients/prime-video.png';
-import jiohotstarLogo from '@/assets/clients/jiohotstar.jpeg.webp';
+// import primeVideoLogo from '@/assets/clients/prime-video.png';
+// import jiohotstarLogo from '@/assets/clients/jiohotstar.jpeg.webp';
 import figuringoutLogo from '@/assets/clients/figuringout.png';
 import tatamotorsLogo from '@/assets/clients/tatamotors.png';
 import addaLogo from '@/assets/clients/adda.png';
@@ -15,8 +15,8 @@ const clients = [
   { name: 'Physics Wallah', logo: physicsWallahLogo },
   { name: 'Unacademy', logo: unacademyLogo },
   { name: 'Netflix India', logo: netflixLogo },
-  { name: 'Prime Video', logo: primeVideoLogo },
-  { name: 'JioHotstar', logo: jiohotstarLogo },
+  // { name: 'Prime Video', logo: primeVideoLogo },
+  // { name: 'JioHotstar', logo: jiohotstarLogo },
   { name: 'Figuring Out', logo: figuringoutLogo },
   { name: 'Tata Motors', logo: tatamotorsLogo },
   { name: 'Adda', logo: addaLogo },
